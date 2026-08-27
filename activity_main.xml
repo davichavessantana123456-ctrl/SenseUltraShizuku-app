@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+<TextView android:id="@+id/title" android:text="Sense Ultra — Shizuku Edition" android:textSize="24sp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/status" android:text="Shizuku: verificando…" android:paddingTop="8dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnShizuku" android:text="ATIVAR / AUTORIZAR SHIZUKU" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnInfo" android:text="INFORMAÇÕES DO APARELHO" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnResolution" android:text="RESOLUÇÃO / DPI" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnTouch" android:text="DIAGNÓSTICO FULL TOUCH" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnAlignment" android:text="ALINHAMENTO / GEOMETRIA DO TOUCH" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnEvdev" android:text="EVDEV / EVENTOS DE TOUCH" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnSensitivity" android:text="PERFIS DE SENSIBILIDADE" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnFreeFire" android:text="FREE FIRE / FF MAX" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnFps" android:text="FPS / DISPLAY" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnRestore" android:text="RESTAURAR SISTEMA" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnCache" android:text="LIMPAR CACHE" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<Button android:id="@+id/btnShell" android:text="CONSOLE SHIZUKU" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<TextView android:id="@+id/output" android:textIsSelectable="true" android:fontFamily="monospace" android:paddingTop="18dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout></ScrollView>
